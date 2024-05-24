@@ -1,0 +1,6 @@
+@AS2324_3F_Prof_SalesAPI_HostAddress = http://localhost:5017
+
+GET {{AS2324_3F_Prof_SalesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
