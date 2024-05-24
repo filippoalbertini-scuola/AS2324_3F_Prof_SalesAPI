@@ -11,7 +11,7 @@ namespace AS2324_3F_Prof_SalesAPI.Controllers
         public JsonResult GetClients()
         {
             string strConn = "";
-            string file = "C:\\Appl\\Scuola\\AS_2023_2024\\3G\\AS2324_3F_Prof_SalesAPI\\AS2324_3F_Prof_SalesAPI\\Database\\northwindITA.db";
+            string file = "C:\\Appl\\Scuola\\AS_2023_2024\\3F\\AS2324_3F_Prof_SalesAPI\\AS2324_3F_Prof_SalesAPI\\Database\\northwindITA.db";
 
             // connessione al DB in SQL Lite (vedi www.connectionstrings.com)
             strConn = @"Data Source=" + file + ";Pooling=false;Synchronous=Full;";
